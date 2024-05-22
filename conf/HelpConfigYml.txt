@@ -1,0 +1,9 @@
+import yaml
+
+# Load configuration from config.yml
+with open("config.yml", 'r') as stream:
+    config = yaml.safe_load(stream)
+
+# Access parameters
+network_type = config['network']['type']
+batch_size = config['training']['batch_size']

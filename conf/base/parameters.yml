@@ -1,0 +1,23 @@
+model:
+  type: "CNN"
+  num_layers: 5
+  hidden_units: 256
+  num_classes: 38
+  image_size: [224, 224]
+  batch_size: 5
+
+training:
+  batch_size: 5
+  learning_rate: 0.001
+  epochs: 1
+
+data_loading:
+  batch_size: 5
+  image_size: [224, 224]
+  normalization: "standardize"
+  horizontal_flip: true
+  rotation_range: 20
+
+testing:
+  batch_size: 32
+  image_size: [224, 224]

@@ -1,0 +1,28 @@
+name: deep-learning-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3  # Specify the appropriate version for your CUDA, if you're using GPU acceleration
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - opencv
+  - jupyter
+  - notebook
+  - pytest
+  - flake8
+  - yaml
+  - pip
+  - pip:
+    - albumentations  # For advanced image augmentation
+    - pyyaml  # To work with YAML files, including your config.yml
