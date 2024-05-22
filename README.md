@@ -19,9 +19,7 @@ We already found good datasets so the problem should be solvable. Exact inform
 
 Repo - GitHub
 
-Server - Azure
-
-MLOps - Azure ML Studio
+Server - Weights and Biases
 
 Model Architectures - fine-tuning VGG16 / VGG19
 
